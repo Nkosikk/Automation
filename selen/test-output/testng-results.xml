@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="33197" started-at="2018-11-26T07:58:41Z" finished-at="2018-11-26T07:59:14Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="33197" started-at="2018-11-26T07:58:41Z" finished-at="2018-11-26T07:59:14Z">
+      <class name="selen.TestC">
+        <test-method status="PASS" signature="seup()[pri:0, instance:selen.TestC@78e67e0a]" name="seup" is-config="true" duration-ms="1532" started-at="2018-11-26T07:58:41Z" description="This is the setup class,where the browser choice is configured" finished-at="2018-11-26T07:58:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- seup -->
+        <test-method status="PASS" signature="load_Facebook_page()[pri:1, instance:selen.TestC@78e67e0a]" name="load_Facebook_page" duration-ms="14883" started-at="2018-11-26T07:58:42Z" description="Opening Facebook URL" finished-at="2018-11-26T07:58:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- load_Facebook_page -->
+        <test-method status="PASS" signature="Invalid_login()[pri:2, instance:selen.TestC@78e67e0a]" name="Invalid_login" duration-ms="16751" started-at="2018-11-26T07:58:57Z" description="The usr enter invalid login details " finished-at="2018-11-26T07:59:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Invalid_login -->
+        <test-method status="PASS" signature="Verify_right_screen_displayed()[pri:3, instance:selen.TestC@78e67e0a]" name="Verify_right_screen_displayed" duration-ms="10" started-at="2018-11-26T07:59:14Z" description="This test is to verify if the user is taken to the right screen when enetered the invalid login details" finished-at="2018-11-26T07:59:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_right_screen_displayed -->
+      </class> <!-- selen.TestC -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
