@@ -1,0 +1,192 @@
+{
+	"id": "2fb4dff0-e54a-4f00-a50f-df564e29800a",
+	"name": "GET",
+	"allTests": [],
+	"timestamp": "2018-11-26T13:36:31.858Z",
+	"collection_id": "c08b11c7-117e-4679-893a-56bbe4f26b21",
+	"folder_id": "1527f359-aabc-4f45-b819-5c09a16b983d",
+	"target_type": "folder",
+	"environment_id": "5674352a-ea06-4335-a47e-4138937dceb4",
+	"data": [],
+	"delay": 0,
+	"count": 1,
+	"collection": {
+		"id": "c08b11c7-117e-4679-893a-56bbe4f26b21",
+		"name": "NkosiCollectio",
+		"description": null,
+		"auth": null,
+		"events": [
+			{
+				"listen": "prerequest",
+				"script": {
+					"id": "ee8f81b2-68d8-408a-89e7-6a2308b5af74",
+					"type": "text/javascript",
+					"exec": [
+						""
+					]
+				}
+			},
+			{
+				"listen": "test",
+				"script": {
+					"id": "f7e8c5ff-2e23-4ff3-9f5b-425cbdb3f390",
+					"type": "text/javascript",
+					"exec": [
+						""
+					]
+				}
+			}
+		],
+		"variables": [
+			{
+				"key": "url",
+				"value": "https://reqres.in",
+				"description": "",
+				"type": "text",
+				"enabled": true
+			}
+		],
+		"order": [],
+		"folders_order": [
+			"1527f359-aabc-4f45-b819-5c09a16b983d",
+			"3acd4fdb-3a8f-4298-a576-28e6cbeae1cd"
+		],
+		"owner": "5387597",
+		"permissions": {},
+		"favorite": false,
+		"shared": false,
+		"type": "collection",
+		"depth": 0
+	},
+	"folder": {
+		"id": "1527f359-aabc-4f45-b819-5c09a16b983d",
+		"name": "GET",
+		"description": "",
+		"auth": null,
+		"events": null,
+		"collection": "c08b11c7-117e-4679-893a-56bbe4f26b21",
+		"folder": null,
+		"order": [
+			"9a87ddf9-b64b-4954-9c97-822403264c00"
+		],
+		"folders_order": [],
+		"type": "folder",
+		"depth": 1
+	},
+	"environment": null,
+	"globals": [],
+	"results": [
+		{
+			"name": "GetOneUser",
+			"id": "9a87ddf9-b64b-4954-9c97-822403264c00",
+			"url": "https://reqres.in/api/users/2",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"name": "Content-Type is present",
+				"status": "pass",
+				"Response time is less than 200ms": true,
+				"data is present": true,
+				" ID is present": true,
+				"first_name is present": true,
+				"last_name is present": true
+			},
+			"testPassFailCounts": {
+				"Content-Type is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"data is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				" ID is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"first_name is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"last_name is present": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"631"
+			],
+			"allTests": [
+				{
+					"Content-Type is present": true,
+					"Response time is less than 200ms": true,
+					"data is present": true,
+					" ID is present": true,
+					"first_name is present": true,
+					"last_name is present": true
+				}
+			],
+			"time": "631",
+			"totalRequestTime": "631",
+			"iterationResults": {}
+		}
+	],
+	"totalPass": 6,
+	"totalFail": 0,
+	"totalTime": 631,
+	"lifecycle": "done",
+	"requests": [
+		{
+			"name": "GetOneUser",
+			"id": "9a87ddf9-b64b-4954-9c97-822403264c00",
+			"url": "https://reqres.in/api/users/2",
+			"time": "2018-11-26T13:36:31.858Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Content-Type is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"data is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				" ID is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"first_name is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"last_name is present": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		}
+	],
+	"synced": false
+}
